@@ -13,4 +13,7 @@ if (1 <= a && a <= 50) && (1 <= b && b <= 50) {
             print(i, terminator: " ")
         }
     }
+    if a == b {
+        print(a)
+    }
 }
