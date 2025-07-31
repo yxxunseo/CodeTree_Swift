@@ -14,4 +14,4 @@ for _ in 1...10 {
     }
 }
 let avg = Double(sum) / Double(cnt)
-    print(sum, String(format: "%.1f", avg))
+print(sum, String(format: "%.1f", avg))
