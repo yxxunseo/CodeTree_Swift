@@ -4,13 +4,13 @@ let b = Int(input[1])!
 var prod = 1
 
 if (1 <= a && a <= 10) && (0 <= b && b <= 8) {
-    for i in 0...b {
-        if b == 0 {
-            print(1)
-        }
-        else {
+    if b != 0 {
+        for i in 1...b {
             prod *= a
         }
+    }
+    else {
+        print(1)
     }
     print(prod)
 }
