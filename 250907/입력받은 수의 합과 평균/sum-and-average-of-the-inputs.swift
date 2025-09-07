@@ -9,4 +9,4 @@ for _ in 1...n {
     }
 }
 let avg = Double(sum) / Double(n)
-print(sum, String(format: "%.3f", avg))
+print(sum, String(format: "%.1f", avg))
