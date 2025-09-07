@@ -8,8 +8,6 @@ if (1 <= a && a <= 10) && (0 <= b && b <= 8) {
         for i in 1...b {
             prod *= a
         }
-    }
-    else {
         print(1)
     }
     print(prod)
