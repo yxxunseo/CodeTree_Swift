@@ -5,7 +5,12 @@ var prod = 1
 
 if (1 <= a && a <= 10) && (0 <= b && b <= 8) {
     for i in 1...b {
-        prod *= a
+        if b == 0 {
+            prod = 1
+        }
+        else {
+            prod *= a
+        }
     }
     print(prod)
 }
